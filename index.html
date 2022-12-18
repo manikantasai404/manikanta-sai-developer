@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="icon" style="border-radius: 15px;" href="./assets/images/2.jpg" type="image/icon type">
+    <link rel="icon" href="./assets/images/homeIcon.png" type="image/icon type">
+
+    <!-- Google Fonts -->    
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,900&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="./assets/icofont.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <link rel="stylesheet" href="./styles/preloader.css">
+
+    
+</head>
+<body>   
+
+    <header class="header" id="navbar-collapse">
+        <!-- desktop Navigation starts -->
+        <ul class="icon-menu nav nav-items  dNone d-large">
+
+            <li class="icon-item nav-item active">
+                <i class="icofont-home"></i>
+                <a href="#"> <h2>Home</h2></a>
+            </li>
+
+            <li class="icon-item nav-item  ">
+                <i class="icofont-ui-user"></i>
+                <a href="./about.html"><h2>About</h2></a>
+            </li>
+
+            <li class="icon-item nav-item  ">
+                <i class="icofont-briefcase"></i>
+                <a href="./portfolio.html"><h2>Portfolio</h2></a>
+            </li>
+        <!-- 
+            <li class="icon-item nav-item  ">
+                <i class="icofont-ui-call"></i>
+                <a href=""><h2>Contact</h2></a>
+            </li>
+
+            <li class="icon-item nav-item  ">
+                <i class="icofont-blogger"></i>
+                <a href=""><h2>Blog</h2></a>
+            </li> -->
+
+        </ul>
+
+
+        <!-- desktop Navigation ends here -->
+
+
+        <!-- mobile navigation starts here -->
+
+        <nav class="mobileNav d-large-none ">
+                <div class="togglemenu">
+                    <div class="toggleButton" onclick="toggleMenu()">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+
+                    <ul class="m-menu nav-items">
+
+                        <li class="icon-item nav-item active">                            
+                            <a href="#" class="flex"> <i class="icofont-home"></i> <h2>Home</h2></a>
+                        </li>
+            
+                        <li class="icon-item nav-item  ">
+                           
+                            <a href="./about.html" class="flex"> <i class="icofont-ui-user"></i> <h2>About</h2></a>
+                        </li>
+            
+                        <li class="icon-item nav-item  ">                            
+                            <a href="./portfolio.html" class="flex"><i class="icofont-briefcase"></i> <h2>Portfolio</h2></a>
+                        </li>
+            
+                        <!-- <li class="icon-item nav-item  ">                            
+                            <a href="" class="flex"><i class="icofont-ui-call"></i> <h2>Contact</h2></a>
+                        </li>
+            
+                        <li class="icon-item nav-item  ">                            
+                            <a href="" class="flex"><i class="icofont-blogger"></i> <h2>Blog</h2></a>
+                        </li> -->
+            
+                    </ul>
+
+                </div>
+        </nav>
+
+        <!-- mobile navigation ends here -->
+
+
+
+    </header>
+
+
+    <!-- Main Content Starts Here -->
+    <section id="home" data-tab="home">
+        <div class="container container-home">
+            <div id="bannerBg" class="primaryBg" style="background-color: #1e446f !important;"></div>
+
+            <div class="userContent grid">
+                <div class="userImage dNone d-large grid-item"></div>
+                <div class="userDetails grid-item">
+                    <img src="./assets/images/2.jpg" class="d-large-none d-small dNone m-userimg" alt="">
+                    <h2 class="dNone d-large d-xsmall">HI THERE !</h2>
+                    <h1 class="userName uCase">I'M <span class="primaryText">MANI KANTA</span></h1>
+
+                    <p class="desc">I'm an UI & Software developer having 4 Years of experience involved in financial projects mainly
+                        focused on user‑friendly experiences & i will make user work easy, I am passionate about 
+                        building excellent software that improves the lives of those around me</p>
+
+                    <a href="./about.html" class="primaryBtn primaryBg" style="outline: none;">More About Me</a>
+
+                </div> 
+                
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+    
+    <script src="./scripts/mains.js"></script>
+    <script src="./scripts/preloader.js"></script>
+</body>
+</html>
